@@ -7,9 +7,9 @@ if __name__ == "__main__":
     # 将特征向量与类别分离
     filename = r"perceptron/test.txt"
     data = np.loadtxt(filename)
-    weight = np.zeros(len(data)-1)   # 权值 weight vector
-    bias = 0.0                       # 偏置 bias
-    learning_rate = 1.0             # 学习率 learning rate
+    weight = np.zeros(len(data) - 1)  # 权值 weight vector
+    bias = 0.0  # 偏置 bias
+    learning_rate = 1.0  # 学习率 learning rate
 
     weight, bias = perceptron.perceptron(data, weight, bias, learning_rate)
     for i in weight:
