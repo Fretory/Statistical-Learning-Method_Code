@@ -1,0 +1,23 @@
+2dmap.py
++生成二维离散图
+
+3dmap.py
++生成三维离散图
+
+ms.py
++马氏距离
+
+2Normal.py
++归一化测试
+
+runTest.py
++测试knn分类器的准确率
+
+kNN.py
++classify0 分类
++file2matrix 将文本转换为矩阵
++autoNorm 归一化
++datingClassTest 数据测试
+
+datingTestSet2.txt
++约会网站数据集
